@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    revo-auth-service:
+        path: /revo-auth-service/**
+        stripPrefix: false
+    revo-service:
+        path: /revo-service/**
+        stripPrefix: false

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: revo-auth-service
+  cloud:
+    config:
+      password: revo-config-server-password
+      uri: http://localhost:8888

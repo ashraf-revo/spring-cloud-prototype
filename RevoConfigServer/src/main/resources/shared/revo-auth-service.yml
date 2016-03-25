@@ -1,0 +1,10 @@
+server:
+  port: 9999
+  context-path: /revo-auth-service
+security:
+  oauth2:
+    client:
+      client-id: clientapp
+      client-secret: 123456
+      authorized-grant-types: password,refresh_token
+      scope: read
